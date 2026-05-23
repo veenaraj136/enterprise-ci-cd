@@ -7,7 +7,7 @@ app = FastAPI()
 
 @app.get("/")
 def health_check():
-    return {"status": "Application Running"}
+    return {"status": "Application Running From RDP...."}
 
 
 @app.post("/employees")
